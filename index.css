@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+header {
+    height: 10%;
+    width: 100%;
+}
+
+.header-top {
+    background-color: #0a2e4a;
+    height: 2rem;
+}
+
+.header-bottom {
+    height: 60%;
+    padding: 1.5rem 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-bottom img {
+    width: 15rem;
+}
+
+.header-bottom nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    font-size: small;
+    font-weight: 600;
+    text-decoration: none;
+    gap: 1.5rem;
+    text-transform: uppercase;
+}
+
+
+body > header > div.header-bottom > nav > ul > li > a {
+    color: #000;
+}
+
+
+.container-img {
+    height: 25%;
+    width: 100%;
+}
+
+.container-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.container-welcome{
+    height: 35%;
+    max-height: 25%;
+    width: 100%;
+    display: flex;
+    padding: 1.5rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.text-wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-wrapper h1 {
+    color: #4c0202;
+    font-weight: 500;
+    font-size: x-large;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.text-wrapper h1 section {
+    color: #0a2e4a;
+}
+
+.text-wrapper hr{
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.text-wrapper p {
+    font-size: small;
+    color: #434343;
+    margin-bottom: 1rem;
+}
+
+.text-wrapper button {
+    background-color: #4c0202;
+    color: #fff;
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 5px;
+    width: 10rem;
+    cursor: pointer;
+}
+
+.img-wrapper{
+    width: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.img-wrapper img {
+    height: 20rem;
+    object-fit: cover;
+}
+
+.container-articles {
+    height: 40%;
+    padding: 1.5rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: #0a2e4a;
+}
+
+.container-articles article {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    width: 28%;
+    border: 1px solid #0f446c;
+    border-radius: 5px;
+}
+
+.container-articles article h1 {
+    color: #fff;
+    font-weight: 500;
+    font-size: medium;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.container-articles article p {
+    color: #fff;
+    font-size: small;
+    margin-bottom: 1rem;
+}
+
+.container-articles article button {
+    background-color: #4c0202;
+    color: #fff;
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 10rem;
+}
+
+.container-articles article img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.container-form {
+    width: 70%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container-form hr {
+    width: 100%;
+    border: 2px solid #4c0202;
+}
+
+.container-form h1 {
+    width: 15rem;
+    font-size: x-large;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    color: #0f446c;
+}
+
+.container-form form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .3rem;
+}
+
+.container-form form section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+.container-form form section input {
+    width: 100%;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: lightgray;
+    border: none;
+}
+
+.container-form form section input::placeholder {
+    padding-left: 1rem;
+}
+
+.container-form form textarea {
+    width: 49%;
+    height: 9.5rem;
+    border-radius: 5px;
+    background-color: lightgray;
+    border: none;
+
+}
+
+.container-form form textarea::placeholder {
+    padding: 1rem;
+}
+
+.container-form form button {
+    width: 100%;
+    background-color: #4c0202;
+    color: #fff;
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
